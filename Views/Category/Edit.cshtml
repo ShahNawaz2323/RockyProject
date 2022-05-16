@@ -2,6 +2,7 @@
 
 <div class="container border p-3">
     <form method="post" asp-action="Edit">
+        <input asp-for="Id" hidden/>
         <div>
             <div asp-validation-summary="All" class="text-danger"></div>
             <h2 class="text-info pl-3">Edit Category</h2>
